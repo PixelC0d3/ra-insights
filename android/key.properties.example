@@ -1,0 +1,10 @@
+# Copy to android/key.properties and fill in with the values you chose when
+# running tool/make_keystore.sh. This file is git-ignored on purpose: losing the
+# keystore means you can never update the app on Play again, and leaking it
+# means someone else can publish as you.
+#
+# storeFile must be an absolute path, or relative to android/app/.
+storeFile=/absolute/path/to/ra-insights-upload.jks
+storePassword=
+keyAlias=upload
+keyPassword=

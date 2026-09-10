@@ -1,0 +1,312 @@
+{
+  "@@locale": "pt",
+  "appTitle": "RA Insights",
+  "appTagline": "Análise do seu perfil RetroAchievements. App não oficial.",
+  "navInsights": "Início",
+  "navGames": "Jogos",
+  "navActivity": "Atividade",
+  "navProgression": "Progressão",
+  "navProfile": "Perfil",
+  "navChallenges": "Desafios",
+  "actionRefresh": "Atualizar",
+  "actionRetry": "Tentar de novo",
+  "actionSearch": "Buscar",
+  "actionSettings": "Ajustes",
+  "actionPaste": "Colar",
+  "actionSignIn": "Entrar",
+  "actionSave": "Salvar",
+  "actionCancel": "Cancelar",
+  "actionExpand": "Ver conquistas",
+  "actionCollapse": "Recolher",
+  "errorUnauthorized": "Chave de API inválida. Confira em Settings → Web API Key no site do RetroAchievements.",
+  "errorNotFound": "Não encontrado no RetroAchievements.",
+  "errorNetwork": "Sem conexão com o RetroAchievements. Tente de novo.",
+  "errorRateLimited": "A API está limitando as requisições. Aguarde alguns instantes.",
+  "errorParse": "A resposta da API veio em um formato inesperado.",
+  "notFoundTitle": "Nada encontrado",
+  "cachedData": "dados em cache",
+  "updatedNever": "nunca atualizado",
+  "updatedNow": "atualizado agora",
+  "updatedMinutes": "atualizado há {count} min",
+  "updatedHours": "atualizado há {count} h",
+  "updatedDays": "atualizado há {count} d",
+  "onboardingWhyTitle": "Por que uma Web API Key?",
+  "onboardingWhyText": "A Web API do RetroAchievements autentica cada requisição com o seu usuário mais a sua chave pessoal — não existe endpoint anônimo. Sem ela nenhuma tela do app consegue carregar dados.",
+  "onboardingWhereTitle": "Onde achar a chave",
+  "onboardingSteps": "1. Abra retroachievements.org/settings\n2. Role até \"Web API Key\"\n3. Copie a chave e cole aqui",
+  "onboardingOpenSettings": "Abrir as configurações do RA",
+  "fieldUsername": "Usuário do RetroAchievements",
+  "fieldApiKey": "Web API Key",
+  "onboardingPrivacy": "A chave fica só no seu aparelho, no keystore do Android. Não há servidor nem coleta de dados.",
+  "statGamesPlayed": "Jogos jogados",
+  "statMasteries": "Masteries",
+  "statMasteryRate": "Taxa de mastery",
+  "statPoints": "Pontos",
+  "cardPlayNow": "O QUE JOGAR AGORA",
+  "cardStreak": "STREAK",
+  "cardAlmostThere": "QUASE LÁ",
+  "cardRarest": "MAIS RARAS",
+  "streakAtRisk": "em risco hoje",
+  "streakDays": "{count, plural, =0{dias seguidos} =1{dia seguido} other{dias seguidos}}",
+  "streakSummary": "Melhor: {best} dias · {active} dias ativos · {total} conquistas (365d)",
+  "emptyStreak": "Sem conquistas nos últimos 365 dias.",
+  "emptyAlmostThere": "Nenhum jogo perto do mastery.",
+  "emptyRarest": "Sem dados de raridade no período.",
+  "remainingLine": "{count, plural, =0{nada faltando} =1{falta {count} conquista} other{faltam {count} conquistas}} ({percent}%)",
+  "playNowReason": "{count, plural, =0{Mastery completo} =1{Falta {count} conquista para o mastery} other{Faltam {count} conquistas ({percent}%)}}",
+  "activityEvents": "{count} eventos nos últimos 365 dias",
+  "chipAchievements": "Conquistas",
+  "chipMastered": "Mastered",
+  "chipBeaten": "Beaten",
+  "legendLess": "menos",
+  "legendMore": "mais",
+  "activityDayHint": "Toque em um dia para ver só aquele dia. Toque de novo para limpar.",
+  "activityShowingDay": "Mostrando {date}",
+  "activityClearDay": "Limpar dia",
+  "tabGamesCount": "Jogos ({count})",
+  "tabAchievementsCount": "Conquistas ({count})",
+  "emptyActivityGames": "Nenhum jogo neste filtro.",
+  "emptyActivityAchievements": "Nenhuma conquista neste filtro. Masteries e beaten não têm conquistas próprias.",
+  "achievementCount": "{count, plural, =0{{count} conquistas} =1{{count} conquista} other{{count} conquistas}}",
+  "pointsShort": "{count} pts",
+  "recentGamesTitle": "Jogos recentes",
+  "gamesTabRecent": "Recentes",
+  "gamesTabByConsole": "Por console",
+  "recentShow": "Mostrar",
+  "recentPage": "página {page}",
+  "recentAchievementsOf": "{earned} de {total} conquistas",
+  "recentPointsOf": "{earned} de {total} pontos",
+  "recentNoAchievements": "Sem conquistas ainda",
+  "recentPlayedOn": "jogado em {date}",
+  "recentEmptyPage": "Nenhum jogo nesta página.",
+  "pagerFirst": "Primeira",
+  "pagerPrevious": "Anterior",
+  "pagerNext": "Próxima",
+  "seeFullList": "Ver lista completa",
+  "badgeNoAchievements": "Sem conquistas cadastradas.",
+  "badgePointsAndRatio": "{points} pts · TrueRatio {ratio}",
+  "badgeUnlockedOn": "Desbloqueada em {date}",
+  "badgeHardcoreSuffix": " (hardcore)",
+  "badgeStillLocked": "Ainda bloqueada",
+  "rarityCommon": "Comum",
+  "rarityUncommon": "Incomum",
+  "rarityRare": "Rara",
+  "rarityVeryRare": "Muito rara",
+  "rarityUltraRare": "Ultra rara",
+  "rarityOfPlayers": "{rate} dos jogadores desbloquearam",
+  "rarityEstimated": "estimada pelo TrueRatio",
+  "gameFallbackTitle": "Jogo",
+  "gameOpenOnSite": "Abrir no site",
+  "gameFilterAll": "Todas",
+  "gameFilterEarned": "✅ Obtidas",
+  "gameFilterLocked": "🔒 Faltam",
+  "gameProgressLine": "{earned}/{total} conquistas · {percent}%",
+  "gameRemainingSuffix": " · faltam {count}",
+  "gamePointsLine": "{earned}/{total} pontos",
+  "gameDifficultySuffix": " · dificuldade do que falta: {ratio} TrueRatio médio",
+  "gameEmptyFilter": "Nenhuma conquista neste filtro.",
+  "achievementSearchHint": "Buscar conquista",
+  "achievementEarned": "obtida",
+  "achievementEarnedOn": "obtida em {date}",
+  "achievementEarnedOnCasual": "obtida em {date} (casual)",
+  "progressionTitle": "Progressão",
+  "metricGames": "jogos",
+  "metricMastered": "mastered",
+  "metricBeaten": "beaten",
+  "metricRate": "taxa",
+  "filterAll": "Todos",
+  "filterWithProgress": "Com progresso",
+  "filterMastered": "Mastered",
+  "consoleGameCount": "{count, plural, =0{{count} jogos} =1{{count} jogo} other{{count} jogos}}",
+  "consoleBreakdown": "{mastered} mastered · {beaten} beaten · {open} em aberto",
+  "emptyConsoles": "Nenhum console neste filtro.",
+  "emptyConsoleGames": "Nenhum jogo neste filtro.",
+  "searchTitle": "Buscar",
+  "searchTabGames": "Jogos",
+  "searchTabPlayers": "Jogadores",
+  "searchGameHint": "Nome do jogo ou do console",
+  "searchGameHelp": "Busca entre os jogos que você já jogou — funciona offline. A API do RetroAchievements não expõe busca no catálogo completo.",
+  "searchGameEmpty": "Nenhum jogo encontrado.",
+  "searchPlayerHint": "Nome exato do jogador",
+  "searchPlayerHelp": "A API só responde por nome exato — não há busca parcial de usuários. Abra o perfil para comparar pontos e rank com os seus, ver o mural e enviar uma mensagem.",
+  "playerPointsRank": "{points} pts",
+  "@playerPointsRank": {
+    "placeholders": {
+      "points": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "playerRankSuffix": " · rank {rank}",
+  "@playerRankSuffix": {
+    "placeholders": {
+      "rank": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "playerMemberSinceYear": "membro desde {year}",
+  "sectionMessage": "MENSAGEM",
+  "messageHelp": "A API oficial é somente leitura para mensagens: o envio acontece no site, já com o destinatário preenchido.",
+  "sendMessage": "Enviar mensagem",
+  "openProfileOnSite": "Abrir perfil no site",
+  "followPlayer": "Seguir",
+  "followHelp": "A API não expõe seguir: toque para abrir o perfil no site, onde o botão real fica.",
+  "sectionComparison": "COMPARAÇÃO",
+  "comparisonNeedsDashboard": "Abra o dashboard primeiro para comparar.",
+  "comparePoints": "Pontos",
+  "compareRank": "Rank",
+  "compareTie": "Vocês estão empatados em pontos.",
+  "compareAhead": "Você está {count} pontos à frente.",
+  "@compareAhead": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "compareBehind": "Você está {count} pontos atrás.",
+  "@compareBehind": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "sectionWall": "MURAL",
+  "emptyWall": "Sem comentários no mural.",
+  "sectionAwards": "PRÊMIOS",
+  "emptyAwards": "Nenhum prêmio ainda.",
+  "profileTitle": "Meu perfil",
+  "profileMemberSince": "membro desde {date}",
+  "sectionScore": "PONTUAÇÃO",
+  "profileRankPosition": "Posição no ranking",
+  "profileRankValue": "#{rank} de {total}",
+  "@profileRankValue": {
+    "placeholders": {
+      "rank": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "total": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "profileRankValueShort": "#{rank}",
+  "@profileRankValueShort": {
+    "placeholders": {
+      "rank": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "profilePoints": "Pontos",
+  "profileWeightedPoints": "Pontos ponderados (TrueRatio)",
+  "sectionCollection": "COLEÇÃO",
+  "profileBeaten": "Beaten",
+  "sectionActivity": "ATIVIDADE",
+  "profileCurrentStreak": "Streak atual",
+  "profileBestStreak": "Melhor streak",
+  "profileActiveDays": "Dias ativos (365d)",
+  "profileAchievements365": "Conquistas (365d)",
+  "activitySeeFull": "Ver atividade completa",
+  "profileDays": "{count, plural, =0{{count} dias} =1{{count} dia} other{{count} dias}}",
+  "profileOpenOnSite": "Abrir meu perfil no site",
+  "settingsTitle": "Ajustes",
+  "settingsAccountConnected": "Conta conectada",
+  "settingsApiKey": "Chave da Web API",
+  "settingsApiKeySubtitle": "Trocar a chave guardada neste aparelho",
+  "settingsApiKeyUpdated": "Chave atualizada",
+  "settingsLanguage": "Idioma",
+  "settingsLanguageSystem": "Idioma do sistema",
+  "settingsClearCache": "Limpar cache",
+  "settingsClearCacheSubtitle": "Força uma releitura completa da API",
+  "settingsCacheCleared": "Cache limpo",
+  "settingsSignOut": "Sair",
+  "settingsSignOutSubtitle": "Apaga a chave do aparelho",
+  "settingsAbout": "Sobre",
+  "settingsAboutText": "RA Insights é um app não oficial, sem vínculo com o RetroAchievements. Dados vindos da Web API oficial. Nada sai do seu aparelho.",
+  "settingsVersion": "v{version}",
+  "rarestWindowAll": "Tudo",
+  "rarestWindow90": "90 dias",
+  "rarestWindow30": "30 dias",
+  "cardChallenges": "DESAFIOS",
+  "challengesTitle": "Desafios",
+  "challengesSubtitle": "Events do RetroAchievements",
+  "challengeFilterAll": "Todos",
+  "challengeFilterInProgress": "Em andamento",
+  "challengeFilterNotStarted": "Não começados",
+  "challengeFilterCompleted": "Concluídos",
+  "challengeProgress": "{earned}/{total} conquistas",
+  "@challengeProgress": {
+    "placeholders": {
+      "earned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "challengeEmpty": "Nenhum desafio neste filtro.",
+  "challengeNotStarted": "Não começado",
+  "challengeCompleted": "Concluído",
+  "challengeNextUp": "O QUE FAZER A SEGUIR",
+  "challengeAllDone": "Todas as conquistas deste evento estão feitas.",
+  "challengeSeeAll": "Ver todas as conquistas",
+  "challengeOpenOnSite": "Abrir no site",
+  "challengeInLibrary": "Você já joga",
+  "challengeNewGame": "Jogo novo",
+  "challengeGuessNote": "O jogo de cada linha é inferido do texto da conquista — a API não liga a conquista do evento ao jogo de origem, então trate como palpite. A interrogação marca os casos incertos.",
+  "challengeRulesNote": "Events não exigem inscrição. Alguns, como a Challenge League, têm acompanhamento manual: poste seu progresso no tópico do fórum do evento para validação.",
+  "challengePointsLeft": "faltam {points} pontos",
+  "@challengePointsLeft": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "challengeSearchHint": "Buscar desafios",
+  "challengeSortClosest": "Mais perto",
+  "challengeSortRecent": "Recentes",
+  "challengeSortBiggest": "Maiores",
+  "challengeBuildPlan": "Montar um plano",
+  "challengePlanTitle": "Seu plano",
+  "challengePlanSummary": "Estas {count} te levam a {percent}% e rendem {points} pontos.",
+  "@challengePlanSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      },
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "challengePlanMore": "Depois disso ainda faltam {count}.",
+  "@challengePlanMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "challengePlanEmpty": "Não há nada para planejar.",
+  "challengeRarityAvg": "raridade média do que você fez aqui",
+  "rememberMe": "Lembrar meus dados",
+  "rememberMeNote": "Mantém seu usuário preenchido na próxima vez. A chave fica no keystore do aparelho.",
+  "splashTagline": "Carregando seu perfil…",
+  "offlineBanner": "Offline — mostrando dados salvos",
+  "achievementOpenOnSite": "Abrir conquista no site"
+}

@@ -1,0 +1,38 @@
+name: ra_insights
+description: "Análise do seu perfil RetroAchievements (app não oficial)."
+publish_to: 'none'
+version: 0.1.0+2
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  dio: ^5.7.0
+  drift: ^2.20.0
+  drift_flutter: ^0.2.0
+  flutter_riverpod: ^2.6.1
+  flutter_secure_storage: ^9.2.2
+  go_router: ^14.6.2
+  sqlite3_flutter_libs: ^0.5.26
+  url_launcher: ^6.3.1
+  youtube_player_iframe: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.13
+  drift_dev: ^2.20.0
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    # Only what the app actually draws ships. hero.png and badge_*.png are
+    # generated and ready, but nothing references them yet.
+    - assets/branding/logo.png

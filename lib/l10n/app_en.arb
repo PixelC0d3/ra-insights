@@ -1,0 +1,572 @@
+{
+  "@@locale": "en",
+  "appTitle": "RA Insights",
+  "appTagline": "Insights on your RetroAchievements profile. Unofficial app.",
+  "navInsights": "Home",
+  "navGames": "Games",
+  "navActivity": "Activity",
+  "navProgression": "Progression",
+  "navProfile": "Profile",
+  "navChallenges": "Challenges",
+  "actionRefresh": "Refresh",
+  "actionRetry": "Try again",
+  "actionSearch": "Search",
+  "actionSettings": "Settings",
+  "actionPaste": "Paste",
+  "actionSignIn": "Sign in",
+  "actionSave": "Save",
+  "actionCancel": "Cancel",
+  "actionExpand": "See achievements",
+  "actionCollapse": "Collapse",
+  "errorUnauthorized": "Invalid API key. Check Settings → Web API Key on the RetroAchievements site.",
+  "errorNotFound": "Not found on RetroAchievements.",
+  "errorNetwork": "No connection to RetroAchievements. Try again.",
+  "errorRateLimited": "The API is rate limiting requests. Wait a moment.",
+  "errorParse": "The API replied in an unexpected format.",
+  "notFoundTitle": "Nothing found",
+  "cachedData": "cached data",
+  "updatedNever": "never updated",
+  "updatedNow": "updated just now",
+  "updatedMinutes": "updated {count} min ago",
+  "@updatedMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "updatedHours": "updated {count} h ago",
+  "@updatedHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "updatedDays": "updated {count} d ago",
+  "@updatedDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingWhyTitle": "Why a Web API key?",
+  "onboardingWhyText": "The RetroAchievements Web API authenticates every single request with your username plus your personal key — there is no anonymous endpoint. Without it no screen in this app can load data.",
+  "onboardingWhereTitle": "Where to find the key",
+  "onboardingSteps": "1. Open retroachievements.org/settings\n2. Scroll to \"Web API Key\"\n3. Copy the key and paste it here",
+  "onboardingOpenSettings": "Open RA settings",
+  "fieldUsername": "RetroAchievements username",
+  "fieldApiKey": "Web API Key",
+  "onboardingPrivacy": "The key stays on your device, in the Android keystore. There is no server and no data collection.",
+  "statGamesPlayed": "Games played",
+  "statMasteries": "Masteries",
+  "statMasteryRate": "Mastery rate",
+  "statPoints": "Points",
+  "cardPlayNow": "WHAT TO PLAY NOW",
+  "cardStreak": "STREAK",
+  "cardAlmostThere": "ALMOST THERE",
+  "cardRarest": "RAREST",
+  "streakAtRisk": "at risk today",
+  "streakDays": "{count, plural, =0{days in a row} =1{day in a row} other{days in a row}}",
+  "@streakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakSummary": "Best: {best} days · {active} active days · {total} achievements (365d)",
+  "@streakSummary": {
+    "placeholders": {
+      "best": {
+        "type": "int"
+      },
+      "active": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyStreak": "No achievements in the last 365 days.",
+  "emptyAlmostThere": "No game close to mastery.",
+  "emptyRarest": "No rarity data in this period.",
+  "remainingLine": "{count, plural, =0{nothing left} =1{{count} achievement left} other{{count} achievements left}} ({percent}%)",
+  "@remainingLine": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "playNowReason": "{count, plural, =0{Mastery complete} =1{{count} achievement left for mastery} other{{count} achievements left ({percent}%)}}",
+  "@playNowReason": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "activityEvents": "{count} events in the last 365 days",
+  "@activityEvents": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chipAchievements": "Achievements",
+  "chipMastered": "Mastered",
+  "chipBeaten": "Beaten",
+  "legendLess": "less",
+  "legendMore": "more",
+  "activityDayHint": "Tap a day to see only that day. Tap again to clear.",
+  "activityShowingDay": "Showing {date}",
+  "@activityShowingDay": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "activityClearDay": "Clear day",
+  "tabGamesCount": "Games ({count})",
+  "@tabGamesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tabAchievementsCount": "Achievements ({count})",
+  "@tabAchievementsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyActivityGames": "No game matches this filter.",
+  "emptyActivityAchievements": "No achievement matches this filter. Mastered and beaten awards have no achievements of their own.",
+  "achievementCount": "{count, plural, =0{{count} achievements} =1{{count} achievement} other{{count} achievements}}",
+  "@achievementCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pointsShort": "{count} pts",
+  "@pointsShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recentGamesTitle": "Recent games",
+  "gamesTabRecent": "Recent",
+  "gamesTabByConsole": "By console",
+  "recentShow": "Show",
+  "recentPage": "page {page}",
+  "@recentPage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      }
+    }
+  },
+  "recentAchievementsOf": "{earned} of {total} achievements",
+  "@recentAchievementsOf": {
+    "placeholders": {
+      "earned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "recentPointsOf": "{earned} of {total} points",
+  "@recentPointsOf": {
+    "placeholders": {
+      "earned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "recentNoAchievements": "No achievements yet",
+  "recentPlayedOn": "played on {date}",
+  "@recentPlayedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "recentEmptyPage": "No game on this page.",
+  "pagerFirst": "First",
+  "pagerPrevious": "Previous",
+  "pagerNext": "Next",
+  "seeFullList": "See full list",
+  "badgeNoAchievements": "No achievements registered.",
+  "badgePointsAndRatio": "{points} pts · TrueRatio {ratio}",
+  "@badgePointsAndRatio": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      },
+      "ratio": {
+        "type": "int"
+      }
+    }
+  },
+  "badgeUnlockedOn": "Unlocked on {date}",
+  "@badgeUnlockedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "badgeHardcoreSuffix": " (hardcore)",
+  "badgeStillLocked": "Still locked",
+  "rarityCommon": "Common",
+  "rarityUncommon": "Uncommon",
+  "rarityRare": "Rare",
+  "rarityVeryRare": "Very rare",
+  "rarityUltraRare": "Ultra rare",
+  "rarityOfPlayers": "{rate} of players unlocked it",
+  "@rarityOfPlayers": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "rarityEstimated": "estimated from TrueRatio",
+  "gameFallbackTitle": "Game",
+  "gameOpenOnSite": "Open on the site",
+  "gameFilterAll": "All",
+  "gameFilterEarned": "✅ Earned",
+  "gameFilterLocked": "🔒 Missing",
+  "gameProgressLine": "{earned}/{total} achievements · {percent}%",
+  "@gameProgressLine": {
+    "placeholders": {
+      "earned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "gameRemainingSuffix": " · {count} to go",
+  "@gameRemainingSuffix": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "gamePointsLine": "{earned}/{total} points",
+  "@gamePointsLine": {
+    "placeholders": {
+      "earned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "gameDifficultySuffix": " · difficulty left: {ratio} average TrueRatio",
+  "@gameDifficultySuffix": {
+    "placeholders": {
+      "ratio": {
+        "type": "int"
+      }
+    }
+  },
+  "gameEmptyFilter": "No achievement in this filter.",
+  "achievementSearchHint": "Search achievement",
+  "achievementEarned": "earned",
+  "achievementEarnedOn": "earned on {date}",
+  "@achievementEarnedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "achievementEarnedOnCasual": "earned on {date} (casual)",
+  "@achievementEarnedOnCasual": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "progressionTitle": "Progression",
+  "metricGames": "games",
+  "metricMastered": "mastered",
+  "metricBeaten": "beaten",
+  "metricRate": "rate",
+  "filterAll": "All",
+  "filterWithProgress": "With progress",
+  "filterMastered": "Mastered",
+  "consoleGameCount": "{count, plural, =0{{count} games} =1{{count} game} other{{count} games}}",
+  "@consoleGameCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "consoleBreakdown": "{mastered} mastered · {beaten} beaten · {open} open",
+  "@consoleBreakdown": {
+    "placeholders": {
+      "mastered": {
+        "type": "int"
+      },
+      "beaten": {
+        "type": "int"
+      },
+      "open": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyConsoles": "No console in this filter.",
+  "emptyConsoleGames": "No game in this filter.",
+  "searchTitle": "Search",
+  "searchTabGames": "Games",
+  "searchTabPlayers": "Players",
+  "searchGameHint": "Game or console name",
+  "searchGameHelp": "Searches the games you have already played — works offline. The RetroAchievements API does not expose a search over the full catalogue.",
+  "searchGameEmpty": "No game found.",
+  "searchPlayerHint": "Exact player name",
+  "searchPlayerHelp": "The API only answers by exact name — there is no partial user search. Open a profile to compare points and rank with yours, read the wall and send a message.",
+  "playerPointsRank": "{points} pts",
+  "@playerPointsRank": {
+    "placeholders": {
+      "points": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "playerRankSuffix": " · rank {rank}",
+  "@playerRankSuffix": {
+    "placeholders": {
+      "rank": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "playerMemberSinceYear": "member since {year}",
+  "@playerMemberSinceYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "sectionMessage": "MESSAGE",
+  "messageHelp": "The official API is read-only for messages: sending happens on the site, with the recipient already filled in.",
+  "sendMessage": "Send message",
+  "openProfileOnSite": "Open profile on the site",
+  "followPlayer": "Follow",
+  "followHelp": "The API has no follow endpoint: tap to open the profile on the site, where the real button lives.",
+  "sectionComparison": "COMPARISON",
+  "comparisonNeedsDashboard": "Open the dashboard first to compare.",
+  "comparePoints": "Points",
+  "compareRank": "Rank",
+  "compareTie": "You are tied on points.",
+  "compareAhead": "You are {count} points ahead.",
+  "@compareAhead": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "compareBehind": "You are {count} points behind.",
+  "@compareBehind": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "sectionWall": "WALL",
+  "emptyWall": "No comments on the wall.",
+  "sectionAwards": "AWARDS",
+  "emptyAwards": "No awards yet.",
+  "profileTitle": "My profile",
+  "profileMemberSince": "member since {date}",
+  "@profileMemberSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "sectionScore": "SCORE",
+  "profileRankPosition": "Rank position",
+  "profileRankValue": "#{rank} of {total}",
+  "@profileRankValue": {
+    "placeholders": {
+      "rank": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "total": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "profileRankValueShort": "#{rank}",
+  "@profileRankValueShort": {
+    "placeholders": {
+      "rank": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "profilePoints": "Points",
+  "profileWeightedPoints": "Weighted points (TrueRatio)",
+  "sectionCollection": "COLLECTION",
+  "profileBeaten": "Beaten",
+  "sectionActivity": "ACTIVITY",
+  "profileCurrentStreak": "Current streak",
+  "profileBestStreak": "Best streak",
+  "profileActiveDays": "Active days (365d)",
+  "profileAchievements365": "Achievements (365d)",
+  "activitySeeFull": "See full activity",
+  "profileDays": "{count, plural, =0{{count} days} =1{{count} day} other{{count} days}}",
+  "@profileDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileOpenOnSite": "Open my profile on the site",
+  "settingsTitle": "Settings",
+  "settingsAccountConnected": "Connected account",
+  "settingsApiKey": "Web API key",
+  "settingsApiKeySubtitle": "Replace the key stored on this device",
+  "settingsApiKeyUpdated": "Key updated",
+  "settingsLanguage": "Language",
+  "settingsLanguageSystem": "System language",
+  "settingsClearCache": "Clear cache",
+  "settingsClearCacheSubtitle": "Forces a full re-read from the API",
+  "settingsCacheCleared": "Cache cleared",
+  "settingsSignOut": "Sign out",
+  "settingsSignOutSubtitle": "Erases the key from this device",
+  "settingsAbout": "About",
+  "settingsAboutText": "RA Insights is an unofficial app, not affiliated with RetroAchievements. Data comes from the official Web API. Nothing leaves your device.",
+  "settingsVersion": "v{version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "rarestWindowAll": "All time",
+  "rarestWindow90": "90 days",
+  "rarestWindow30": "30 days",
+  "cardChallenges": "CHALLENGES",
+  "challengesTitle": "Challenges",
+  "challengesSubtitle": "RetroAchievements events",
+  "challengeFilterAll": "All",
+  "challengeFilterInProgress": "In progress",
+  "challengeFilterNotStarted": "Not started",
+  "challengeFilterCompleted": "Completed",
+  "challengeProgress": "{earned}/{total} achievements",
+  "@challengeProgress": {
+    "placeholders": {
+      "earned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "challengeEmpty": "No challenge in this filter.",
+  "challengeNotStarted": "Not started",
+  "challengeCompleted": "Completed",
+  "challengeNextUp": "WHAT TO DO NEXT",
+  "challengeAllDone": "Every achievement in this event is done.",
+  "challengeSeeAll": "See every achievement",
+  "challengeOpenOnSite": "Open on the site",
+  "challengeInLibrary": "You already play this",
+  "challengeNewGame": "New game",
+  "challengeGuessNote": "The game on each line is inferred from the achievement text — the API does not link an event achievement to its source game, so treat it as a hint. A question mark means the match is uncertain.",
+  "challengeRulesNote": "Events need no sign-up. Some, including Challenge League, are tracked manually: post your progress in the event forum topic to have it validated.",
+  "challengePointsLeft": "{points} points left",
+  "@challengePointsLeft": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "challengeSearchHint": "Search challenges",
+  "challengeSortClosest": "Closest",
+  "challengeSortRecent": "Recent",
+  "challengeSortBiggest": "Biggest",
+  "challengeBuildPlan": "Build a plan",
+  "challengePlanTitle": "Your plan",
+  "challengePlanSummary": "These {count} take you to {percent}% and bank {points} points.",
+  "@challengePlanSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      },
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "challengePlanMore": "{count} more left after that.",
+  "@challengePlanMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "challengePlanEmpty": "Nothing left to plan.",
+  "challengeRarityAvg": "avg rarity of what you earned here",
+  "rememberMe": "Remember me",
+  "rememberMeNote": "Keeps your username filled in next time. The key stays in the device keystore.",
+  "splashTagline": "Loading your profile…",
+  "offlineBanner": "Offline — showing saved data",
+  "achievementOpenOnSite": "Open achievement on the site"
+}

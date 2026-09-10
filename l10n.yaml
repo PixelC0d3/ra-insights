@@ -1,0 +1,8 @@
+# Adding a language is one file: drop lib/l10n/app_<code>.arb next to these and
+# list its Locale in supportedLocales.
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+output-dir: lib/l10n/gen
