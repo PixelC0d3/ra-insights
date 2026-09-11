@@ -64,7 +64,8 @@ legíveis sem upload manual.
 ## 3. Criar o app no Play Console
 
 - Nome: **RA Insights**
-- Idioma padrão: **Português (Brasil)**, com **Inglês (EUA)** como tradução
+- Nome do pacote: **com.pixelc0d3.rainsights** (igual ao `applicationId`; não muda depois de publicado)
+- Idioma padrão: **Inglês (EUA)** — decisão tomada; adicionar **Português (Brasil)** como tradução
 - Tipo: App · Gratuito
 - Textos: `store/pt-BR/listing.md` e `store/en-US/listing.md`
 - Ícone 512×512: `store/graphics/icon-512.png`
@@ -96,11 +97,17 @@ Nas instruções, escreva também que a chave sai de
 `retroachievements.org/settings → Keys → Web API Key`, porque o revisor não vai
 saber disso sozinho.
 
-### 🔴 2. URL da política de privacidade (bloqueante)
+### 🟢 2. URL da política de privacidade — resolvido
 
-A Play exige um **endereço público**, e `PRIVACY.md` dentro do repositório não
-serve. O caminho mais curto: publicar o arquivo no GitHub Pages do projeto e
-colar a URL em *Política do app → Política de Privacidade*.
+O repositório `PixelC0d3/ra-insights` é público, então o próprio arquivo serve:
+
+```
+https://github.com/PixelC0d3/ra-insights/blob/main/PRIVACY.md
+```
+
+Cole em *Política do app → Política de Privacidade*. Se quiser uma página mais
+limpa, ligue o GitHub Pages (Settings → Pages → branch `main`, pasta raiz) e use
+`https://pixelc0d3.github.io/ra-insights/PRIVACY` — a URL de `blob` já é aceita.
 
 ### 🟡 3. Teste fechado de 14 dias
 

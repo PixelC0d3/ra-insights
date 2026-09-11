@@ -92,3 +92,8 @@ App → Entertainment
 
 ## Contact email
 welington.rmonteiro@gmail.com
+
+## Privacy policy URL
+```
+https://github.com/PixelC0d3/ra-insights/blob/main/PRIVACY.md
+```

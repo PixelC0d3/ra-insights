@@ -1,7 +1,10 @@
 # RA Insights — Plano de Ação
 
 **App mobile Flutter de análise de perfil RetroAchievements.**
-Documento de planejamento. Nada implementado ainda.
+
+> **Documento histórico.** Escrito antes da implementação, mantido como registro
+> da intenção original. O estado atual do app está no `README.md`; o redesenho de
+> navegação aplicado depois está em `design/REORGANIZACAO.md`.
 
 - Criado em: 2026-08-29
 - Origem: features do userscript [RA Toolkit](https://github.com/PixelC0d3/ra-toolkit) (`~/Documentos/Projetos/ra-toolkit`)
