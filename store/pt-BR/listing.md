@@ -103,4 +103,7 @@ retroachievements, conquistas, retrogames, emulação, estatísticas
 welington.rmonteiro@gmail.com
 
 ## URL da política de privacidade
-⚠️ PENDENTE — precisa ser um endereço público. Veja RELEASE.md.
+```
+https://github.com/PixelC0d3/ra-insights/blob/main/PRIVACY.md
+```
+(repositório público; a política vive em `PRIVACY.md` na branch `main`)
